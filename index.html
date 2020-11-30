@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Hombre Colgado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">El juego del Colgao</h1>
+        <br>
+        <div class="float-right">Fallos: <span id='mistakes'>0</span> de <span id='maxWrong'></span></div>
+        <div class="text-center">
+            <img id="imagenColgado" src="icon/0.jpg">
+            <p>Adivina la palabra oculta:</p>
+            <p id="wordSpotlight"></p>
+            <div id='keyboard'></div>
+            <button class="btn btn-info" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="./js/programa.js"></script>
+</body>
+</html>
